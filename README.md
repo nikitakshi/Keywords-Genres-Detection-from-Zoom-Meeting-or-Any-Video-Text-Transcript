@@ -1,8 +1,8 @@
 # Keywords-Genres-Detection-from-Zoom-Meeting-or-Any-Video-Text-Transcript
-Overview
+# Overview
 This project aims to transcribe video content from Zoom meetings or any video source, extract keywords using Natural Language Processing (NLP), and predict the genre based on the content. It provides a comprehensive solution for analyzing video content and extracting valuable information.
 
-Features
+# Features
 Video Transcription: Converts video content into text using Automatic Speech Recognition (ASR) and video processing techniques.
 Keyword Extraction: Utilizes NLP techniques, such as TF-IDF, to extract relevant keywords from the transcribed text.
 Genre Prediction: Predicts the genre of the content using OpenAI's GPT-3 language model.
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Project Structure
 The project is organized into the following components:
 
-Data Processing:
+# Data Processing:
 
  Text transcript extraction from Zoom meetings or video content.
  Preprocessing of text data to remove noise and irrelevant information.
