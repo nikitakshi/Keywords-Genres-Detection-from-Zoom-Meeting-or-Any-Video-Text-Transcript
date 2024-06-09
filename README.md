@@ -21,54 +21,54 @@ pip install -r requirements.txt
 Project Structure
 The project is organized into the following components:
 
+ Data Processing:
+
+ Text transcript extraction from Zoom meetings or video content.
+ Preprocessing of text data to remove noise and irrelevant information.
+Keyword Detection:
+
+ Implementation of algorithms to identify and extract keywords from the text.
+Genre Classification:
+
+ Development of a model to classify content into genres based on identified keywords.
+Documentation:
+
+ README file describing the project, its components, and usage instructions.
+ Additional documentation for code comments and project structure.
+ Project Structure
+The project is organized into the following components:
+
 # Data Processing:
 
  Text transcript extraction from Zoom meetings or video content.
  Preprocessing of text data to remove noise and irrelevant information.
-Keyword Detection:
+# Keyword Detection:
 
  Implementation of algorithms to identify and extract keywords from the text.
 Genre Classification:
 
  Development of a model to classify content into genres based on identified keywords.
-Documentation:
+# Documentation:
 
  README file describing the project, its components, and usage instructions.
  Additional documentation for code comments and project structure.
-Project Structure
-The project is organized into the following components:
-
-Data Processing:
-
- Text transcript extraction from Zoom meetings or video content.
- Preprocessing of text data to remove noise and irrelevant information.
-Keyword Detection:
-
- Implementation of algorithms to identify and extract keywords from the text.
-Genre Classification:
-
- Development of a model to classify content into genres based on identified keywords.
-Documentation:
-
- README file describing the project, its components, and usage instructions.
- Additional documentation for code comments and project structure.
-Run the Application:
+# Run the Application:
 streamlit run main.py Acc
 
-Access the Web IntHosting
+# Access the Web IntHosting
 The project can be hosted on platforms like Heroku, AWS, or any other suitable hosting service. Ensure to set up environment variables for API keys and sensitive information.
 
-Demo##
+# Demo##
 View the live demo here https://f8ca-152-58-17-243.ngrok-free.app/#home
 
-License
+# License
 This project is licensed under the MIT License.
 
-Contributing
+# Contributing
 Feel free to contribute to the project! Whether it's bug fixes, new features, or improvements, your contributions are welcome.
 
-Issues and Feedback
+# Issues and Feedback
 If you encounter any issues or have feedback, please open an issue. Your input is valuable!
 
-Acknowledgments
+# Acknowledgments
 Special thanks to OpenAI for providing the GPT-3 API. Inspired by the work in SpeechRecognition and NLTK.rface: Open your browser and go to http://localhost:8501.
